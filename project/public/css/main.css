@@ -1,0 +1,248 @@
+html, body {
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.content {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+}
+
+.content:before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    background-image: url('background.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+
+
+.registerBox {
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.loginBox {
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    z-index: 9999;
+    padding: 2px;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #CC718F;
+    margin: 5px;
+   
+}
+
+.nav-right {
+    float: right;   
+}
+
+.loginButton {
+    background-color: #CC718F;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 8px;
+    width: 100px;
+    border: none;
+}
+
+.logoutButton {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #CC718F;
+    margin: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+}
+
+.logoutButton:hover {
+    cursor: pointer;
+}
+
+.resetButton {
+    background-color: #CC718F;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 8px;
+    width: 150px;
+    border: none;
+}
+.resetButton:hover {
+    cursor: pointer;
+}
+
+.forgotPassword {
+    color: #000000;
+    font-size: 15px;
+}
+
+.loginInput {
+    height: 25px;
+    width: 180px;
+    border-radius: 3px;
+    border: none;
+    color: #000000;
+}
+
+.nameInput {
+    height: 25px;
+    width: 130px;
+    border-radius: 3px;
+    border: none;
+    color: #000000;
+}
+
+td {
+    text-align: left;
+}
+
+.fileUpload {
+    margin: 0 auto;
+}
+
+.homeBox {
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    padding: 50px;
+    padding-top: 30px;
+}
+
+.userBox {
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    padding: 50px;
+    padding-top: 30px;
+}
+
+.userTable {
+    border: 2px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.userTable th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 5px;
+}
+
+.userTable td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 7px;
+}
+
+.userTopBar {
+    display: flex;
+}
+
+
+.exportButton {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    border: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    text-decoration: none;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 30px;
+}
+
+.exportButton:hover {
+    cursor: pointer;
+}
+
+.deleteButton {
+    display: inline;
+    background-color: #CC718F;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.userTable a {
+    color: black;
+    text-decoration: none;
+}
+
+.userTable a:visited {
+    color: black;
+}
+
+.userTable a:hover {
+    cursor: pointer;
+}

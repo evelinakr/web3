@@ -1,0 +1,170 @@
+html, body {
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.content {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+}
+
+.content:before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    background-image: url('background.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.profileBox {
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    padding: 50px;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.profileContainer {
+    flex: 40%;
+    border-right: thin solid black;
+    margin-right: 3%;
+}
+
+.blogContainer {
+    flex: 50%;
+    text-align: left;   
+}
+
+.blogContainer a {
+    text-decoration: none;
+}
+
+.blogImage {
+    width: 100px;
+    height:100px;
+    padding: 2px;
+}
+
+.profileEditBox {
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    padding: 50px;
+    padding-top: 30px;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    z-index: 9999;
+    padding: 2px;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #CC718F;
+    margin: 5px;
+   
+}
+
+.nav-right {
+    float: right;   
+}
+
+.editButton {
+    background-color: #CC718F;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.editButton:hover {
+    cursor: pointer;
+}
+
+.logoutButton {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #CC718F;
+    margin: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+}
+
+.logoutButton:hover {
+    cursor: pointer;
+}
+
+.nameInput {
+    height: 25px;
+    width: 130px;
+    border-radius: 3px;
+    border: none;
+    color: #000000;
+}
+
+.fileUpload {
+    margin: 0 auto;
+}
+
+.profilePictureInput::-webkit-file-upload-button {
+    background-color: #CC718F;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 3px;
+    width: 90px;
+    border: none;
+}
+
+.profilePictureInput::-webkit-file-upload-button:hover {
+    cursor: pointer;
+}
+
+td {
+    text-align: left;
+}

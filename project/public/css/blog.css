@@ -1,0 +1,216 @@
+html, body {
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+    overflow: auto;
+}
+
+.content {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100%;
+    overflow: auto;
+}
+
+.content:before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #000;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    z-index: 9999;
+    padding: 2px;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #CC718F;
+    margin: 5px;
+}
+
+.nav-right {
+    float: right;
+}
+
+.logoutButton {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #CC718F;
+    margin: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+}
+
+.logoutButton:hover {
+    cursor: pointer;
+}
+
+.blogTopBar {
+    display: flex;
+}
+
+.blog {
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding: 50px;
+}
+
+.blogBox {
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 7%;
+    padding: 50px;
+}
+
+.blogFlex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blogFlex a {
+    text-decoration: none;
+    color: black;
+}
+
+.blogFlex a:visited {
+    color: black;
+}
+
+.textContainer {
+    flex: 1 0 40%;
+    text-align: left;
+    padding: 30px;
+}
+
+.imageContainer {
+    flex: 1 0 50%;
+}
+
+.blogImageWithBlur {
+    max-width: 500px;
+}
+
+.blogImageWithBlur:hover {
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+}
+
+.blogImage {
+    max-width: 500px;
+}
+
+.addBlog {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    border: none;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 15px;
+    text-decoration: none;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 30px;
+}
+
+.addBlog:hover {
+    cursor: pointer;
+}
+
+.titleInput {
+    height: 25px;
+    width: 500px;
+    border-radius: 3px;
+    border: none;
+    color: #000000;
+    font-size: 11pt;
+}
+
+.blogPictureInput::-webkit-file-upload-button {
+    background-color: #CC718F;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 3px;
+    width: 90px;
+    border: none;
+}
+
+.blogPictureInput::-webkit-file-upload-button:hover {
+    cursor: pointer;
+}
+
+.blogTextArea {
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    width: 700px;
+    height: 400px;
+    font-size: 12pt;
+}
+
+.createButton {
+    background-color: #CC718F;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.createButton:hover {
+    cursor: pointer;
+}
+
+td {
+    text-align: left;
+}
